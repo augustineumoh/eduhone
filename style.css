@@ -1,0 +1,19 @@
+h2{
+    color: blueviolet;
+}
+ul{
+    color: rgb(39, 39, 33);
+    list-style: square;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+text-align: center;
+border: 1px solid rgb(8, 205, 149);
+pad
+}
+
+th {
+    background-color: red;

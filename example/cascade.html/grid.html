@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 24px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            row-gap: 5px;
+            padding: 20px;
+            margin: 10px;
+        }
+        .grid1{
+            background-color: blueviolet;
+            grid-column: span 1;
+            grid-row: span 2;
+        }
+        .grid2{
+            background-color: aqua;
+            grid-column: span 2;
+        }
+        .grid3{
+            background-color: violet;
+            grid-column: span 1;
+            grid-row: span 2;
+        }
+        .grid4{
+            background-color: red;
+        }
+        .grid5{
+            background-color: burlywood;
+        }
+        .grid6{
+            background-color: blanchedalmond;
+        }
+        .grid7{
+            background-color: blue;
+        }
+        .container-2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            background-color: black;
+            height: 750px;
+            width: 600px;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: 225px 100px 200px;
+            grid-template-rows: 300px 100px;
+            column-gap: 10px;
+            row-gap: 10px;
+            justify-content: center;
+            justify-items: start;
+            align-items: start;
+            align-content: center;
+        }
+        .grid8{
+            background-color: goldenrod;
+        }
+        .grid9{
+            background-color: palevioletred;
+        }
+        .grid10{
+            background-color: brown;
+        }
+        .grid11{
+            background-color: gold;
+        }
+        .grid12{
+            background-color: aqua; 
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="grid1">Html</div>
+    <div class="grid2">Css</div>
+    <div class="grid3">Javascript</div>
+    <div class="grid4">Python</div>
+    <div class="grid5">Java</div>
+    <div class="grid6">C++</div>
+    <div class="grid7">.Net</div>
+   </div> 
+   <div class="container-2">
+    <div class="grid8">React</div>
+    <div class="grid9">Data analysis</div>
+    <div class="grid10">Node js</div>
+    <div class="grid11">UI/UX</div>
+    <div class="grid12">SQL</div>
+
+   </div>
+</body>
+</html>
