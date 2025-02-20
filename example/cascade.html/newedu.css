@@ -504,6 +504,7 @@ li a:hover{
     background-color: white;
     width: 370px;
     height: 520px;
+    /* position:relative; */
 }
 .Lessons{
     display: flex;
@@ -586,7 +587,10 @@ hr{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 30px;
+    /* column-gap: 30px; */
     justify-content: center;
+    /* margin:100px auto;
+    width:960px; */
     padding: 60px;
     position: relative;
 
@@ -616,7 +620,6 @@ hr{
     padding-right: 9px;
 }
 .justify{
-    justify-content: center;
-    display: flex;
-    bottom: 10px;
+   /* position:absolute; */
+   transform:translateX(115%)
 }
